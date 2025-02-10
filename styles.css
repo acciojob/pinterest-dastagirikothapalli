@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 /* General Reset */
 * {
   margin: 0;
@@ -14,6 +13,7 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .hero-image {
@@ -37,3 +37,14 @@
   background-color: #d4001f;
 }
 
+h1 {
+  position: absolute;
+  font-size: 3rem;
+  color: #fff;
+}
+
+p {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #fff;
+}
