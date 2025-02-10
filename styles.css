@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.explore-now {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #e60023;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.explore-now:hover {
+  background-color: #d4001f;
+}
+
